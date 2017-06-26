@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://github.com/ezharandall/GifTastic/blob/master/assets/images/black_background.jpg?raw=true");
+}
+
+h3 {
+	color: white;
+}
+
+label {
+	color: white;
+}
+
+.button-list {
+    margin: 15px 5px;
+}
+
+.button-submit {
+    margin-top: 10px;
+}
+
+.gif-margin {
+    margin-bottom: 25px;
+}
+
+.panel {
+    background-color: black;
+}

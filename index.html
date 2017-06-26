@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Linking Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- linking jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <!-- Linking googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+  <!-- Linking Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <title>GifTastic</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 class="text-center">Click a button below to view their cool GIFs!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="animalButtons"></div>
+            <div class="col-sm-3">
+                <form id="animalForm">
+                    <label for="animalInput">Create a new button by searching below:</label>
+                    <input class="form-control" type="text" id="animalInput">
+                    <button id="addAnimal" class="btn btn-primary btn-block button-submit" type="submit" value="Submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="animals">
+            </div>
+        </div>
+    </div>
+   
+       <!-- Linking JS code -->
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
